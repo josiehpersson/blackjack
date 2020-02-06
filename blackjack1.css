@@ -1,0 +1,33 @@
+.wrapper {
+    display:flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+}
+h1 {
+    align-self:center;
+}
+#output-area {
+    font-size: 50pt;
+}
+.button-area {
+    flex-flow:row;
+    justify-content:space-around;
+    align-self:center;
+}
+button {
+    height:50px;
+    width:100px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+button:hover {
+    background-color:red;
+    color:white;
+}
+
+#winner-area{
+    font-size:25pt;
+    text-align: center;
+    margin-top: 15px;
+}
