@@ -405,7 +405,7 @@ showHands();
 }
 
 hasBlackJack = (hand, score) => {
-if (hand === 2 && score ===21) return true;
+if (hand === 2 && score ===21 || score === 21) return true;
 }
 
 isBust = (score) => {
